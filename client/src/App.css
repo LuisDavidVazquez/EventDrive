@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(50, 55, 80);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 35px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 20vw;
+  height: 30px;   
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 3px;
+}
+
+button {
+  width: 20vw;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(80, 80, 202);
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(46, 46, 134);
+}
+
+p {
+  font-size: 20px;
+}
